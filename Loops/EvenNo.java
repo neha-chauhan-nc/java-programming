@@ -17,9 +17,9 @@ public class EvenNo {
             }
 
             for(int i = 2; i <= num; i= i+2 ){
-                if (i%2 == 0) {
+                
                     System.out.println("Your Even Number is: " + i);
-                }
+            
             }
 
         }else{
