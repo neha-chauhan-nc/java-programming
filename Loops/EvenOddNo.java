@@ -5,9 +5,13 @@ public class EvenOddNo {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter number: ");
-       int num = sc.nextInt();
+        int num;
 
-        System.out.println("\n\nEven number:");
+        if (sc.hasNextInt()) {
+            num = sc.nextInt(); 
+        
+
+        System.out.println("\nEven number:");
        for(int i = 1; i<=num; i++){
         if(i%2==0){
             System.out.print(i + " ");
@@ -22,6 +26,10 @@ public class EvenOddNo {
         
 
        }
+
+    }else{
+            System.out.println("Invalid input!! enter correct number.");
+        }
        sc.close();
     }
     
