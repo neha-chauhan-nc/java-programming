@@ -1,0 +1,24 @@
+//psvm= shortcut for java class
+
+//no space btw "foile name" & "folder name"
+
+/ = forward slash, \ = back slash
+
+//\n = next line (used btw text), println = next line (eg.System.out.println())
+
+// comment in java : // or /*  */
+trick:- select part + ctrl + /
+
+//HW: double can store digits? _________
+
+
+//NAMING RULES OF VARIABLE:-
+(1) _& $ is allowed, else special character not allowed. eg:- int x / int _x /int _1x /int $x
+(2)"blank"(space)& "commas"(,) & "keywords" are not allowed.
+
+============================================================
+
+
+
+
+
